@@ -4,10 +4,11 @@ import NewExpense from "./components/New Expense/NewExpense";
 import './index.css'
 
 const DUMMY_EXPENSES = [
-  { id: 'e1', title: 'CaR Insurance', amount: '294.67', date: new Date(2021, 0, 30) },
+  { id: 'e1', title: 'CaR Insurance', amount: '174.67', date: new Date(2021, 0, 30) },
   { id: 'e2', title: 'Medi Insurance', amount: '194.27', date: new Date(2021, 1, 12) },
   { id: 'e3', title: 'Home Insurance', amount: '494.56', date: new Date(2021, 2, 18) },
   { id: 'e4', title: 'Insurance', amount: '294.76', date: new Date(2021, 3, 12) }
+  { id: 'e5', title: 'Edu', amount: '200.50', date: new Date(2020, 3, 12) }
 ]
 
 const App = () => {
